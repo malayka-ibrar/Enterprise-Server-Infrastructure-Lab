@@ -5,9 +5,13 @@ A fully virtualized, multi-service enterprise network environment built to demon
 
 ## 🛠️ Tech Stack & Tools
  **OS:** Ubuntu Linux (Server & Desktop) 
+ 
 **Virtualization:** Oracle VM VirtualBox 
+
 **Network Services:** Bind9 (DNS), isc-dhcp-server (DHCP), Apache2 (Web), vsftpd (FTP), Squid (Proxy) 
+
 **Security:** UFW (Uncomplicated Firewall), Least-Privilege Access Control 
+
 ## 🚀 Key Features & Implementation
 **DNS Resolution (Bind9):** Configured authoritative and caching DNS; successfully resolved resolution failures using strategic Bind9 forwarding.
 
