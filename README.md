@@ -9,11 +9,13 @@ A fully virtualized, multi-service enterprise network environment built to demon
 **Network Services:** Bind9 (DNS), isc-dhcp-server (DHCP), Apache2 (Web), vsftpd (FTP), Squid (Proxy) 
 **Security:** UFW (Uncomplicated Firewall), Least-Privilege Access Control 
 ## 🚀 Key Features & Implementation
-**DNS Resolution (Bind9):** Configured authoritative and caching DNS; successfully resolved resolution failures using strategic Bind9 forwarding[cite: 21, 35].
+**DNS Resolution (Bind9):** Configured authoritative and caching DNS; successfully resolved resolution failures using strategic Bind9 forwarding.
+
 **Traffic Management (Squid):** Implemented a forward proxy for controlled internet access and traffic caching.
+
 **Automation (DHCP):** Automated IP address management across the virtual subnet.
+
 **Web Hosting (Apache):** Deployed a functional enterprise web server integrated with internal DNS.
+
 **Security Hardening:** Applied least-privilege firewall rules and secure configuration parameters to minimize the attack surface.
 
-
-```text
